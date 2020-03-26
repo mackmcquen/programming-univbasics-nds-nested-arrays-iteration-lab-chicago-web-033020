@@ -27,8 +27,8 @@ def find_greater_pair(src)
    while row_index < src.count do
      element_index = 0
    if src[row_index][0] > src[row_index][1]
-       larger_numbers.push(src[row_index][0])
-   else larger_numbers.push(src[row_index][1])
+       larger_number.push(src[row_index][0])
+   else larger_number.push(src[row_index][1])
 end
 row_index += 1
 end
