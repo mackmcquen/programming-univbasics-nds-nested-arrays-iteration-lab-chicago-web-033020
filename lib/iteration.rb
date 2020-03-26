@@ -55,4 +55,3 @@ end
 row_index += 1
 end
 total
-end
