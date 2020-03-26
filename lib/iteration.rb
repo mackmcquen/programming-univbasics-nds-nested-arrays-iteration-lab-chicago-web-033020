@@ -26,7 +26,14 @@ def find_greater_pair(src)
    row_index = 0
    while row_index < src.count do
      element_index = 0
-     
+   if src[row_index][0] > src[row_index][1]
+       larger_numbers.push(src[row_index][0])
+   else larger_numbers.push(src[row_index][1])
+end
+row_index += 1
+end
+larger_numbers
+end
 end
 
 def total_even_pairs(src)
