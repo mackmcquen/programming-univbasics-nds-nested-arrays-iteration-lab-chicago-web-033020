@@ -32,7 +32,7 @@ def find_greater_pair(src)
 end
 row_index += 1
 end
-larger_numbers
+larger_number
 end
 end
 
