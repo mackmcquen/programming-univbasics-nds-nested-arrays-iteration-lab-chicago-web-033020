@@ -24,7 +24,8 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   larger_number = Array.new
    row_index = 0
-   while row_index < src.count 
+   while row_index < src.count do
+     
 end
 
 def total_even_pairs(src)
