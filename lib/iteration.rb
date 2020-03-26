@@ -13,10 +13,9 @@ def join_ingredients(src)
     while element_index <
   spice_rack[row_index].count do
     puts spice_rack[row_index][element_index]
-    element_index += 1
+    element_
 end
- row_index += 1
-end
+
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
