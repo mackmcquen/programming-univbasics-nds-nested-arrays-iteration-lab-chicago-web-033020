@@ -12,7 +12,7 @@ def join_ingredients(src)
     element_index = 0
     topping1 = spice_rack[row_index][0]
     topping2 = spice_rack[row_index][1]
-  ingredient_array.push("I love #{topping1} and #{topping2) "on my pizza")
+  ingredient_array.push("I love #{topping1} and #{topping2} on my pizza")
   row_index+=1
 end
 ingredient_array
