@@ -44,5 +44,15 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   total = 0
-  
+
+row_index = 0
+while row_index < src.count do
+   element_index = 0
+     if src[row_index][0] % 2 == 0  && src[row_index][1] % 2 == 0
+       subtotal = src[row_index][0] + src[row_index][1]
+       total = total + subtotal
+  end
+    row_index += 1
+  end
+    total
 end
