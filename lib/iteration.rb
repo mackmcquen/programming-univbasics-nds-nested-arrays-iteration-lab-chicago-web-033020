@@ -10,7 +10,8 @@ def join_ingredients(src)
   row_index = 0
   while row_index < spice_rack.count do
     element_index = 0
-    topping1 = spice_rack[]
+    topping1 = spice_rack[row_index][0]
+    topping2 = spice_rack[row_index][1]
 end
 
 def find_greater_pair(src)
