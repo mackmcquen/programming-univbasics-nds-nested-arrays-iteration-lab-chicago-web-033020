@@ -15,7 +15,8 @@ def join_ingredients(src)
   ingredient_array.push("I love #{topping1} and #{topping2} on my pizza")
   row_index+=1
 end
-
+ingredient_array
+end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
