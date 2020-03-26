@@ -8,6 +8,12 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   ingredient_array = Array.new
   row_index = 0
+  while row_index < spice_rack.count do
+    element_index = 0
+    while element_index <
+  spice_rack[row_index].count do
+    puts spice_rack[row_index][element_index]
+    element_index += 1
 end
 
 def find_greater_pair(src)
