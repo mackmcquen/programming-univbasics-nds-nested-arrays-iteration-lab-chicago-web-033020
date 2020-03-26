@@ -8,10 +8,10 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   ingredient_array = Array.new
   row_index = 0
-  while row_index < spice_rack.count do
+  while row_index < src.count do
     element_index = 0
-    topping1 = spice_rack[row_index][0]
-    topping2 = spice_rack[row_index][1]
+    topping1 = src[row_index][0]
+    topping2 = src[row_index][1]
   ingredient_array.push("I love #{topping1} and #{topping2} on my pizza")
   row_index+=1
 end
